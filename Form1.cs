@@ -136,6 +136,14 @@ namespace FileDownloader
             _progress.TotalFileLength = fileLength;
             this.statusStrip1.Items["byteStatus"].Text = "0 of " + fileLength.ToString();
             this.statusStrip1.Refresh();
+
+            saveFileDialog1.FileName = _fileName;
+            //string fullPath = string.Empty;
+
+            if (saveFileDialog1.ShowDialog() == DialogResult.OK)
+            {
+                _fileName = saveFileDialog1.FileName;
+            }
             
             using (FileStream fs = new FileStream(_fileName, FileMode.Create, FileAccess.Write, FileShare.Write))
             {

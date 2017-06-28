@@ -79,8 +79,8 @@
             this.txtURL.Name = "txtURL";
             this.txtURL.Size = new System.Drawing.Size(373, 20);
             this.txtURL.TabIndex = 0;
-            this.txtURL.Text = "http://cdimage.debian.org/debian-cd/current/amd64/iso-dvd/debian-8.8.0-amd64-DVD-" +
-    "1.iso";
+            this.txtURL.Text = "http://cdimage.debian.org/debian-cd/current/amd64/iso-dvd/debian-9.0.0-amd64-DVD-" +
+    "3.iso";
             this.txtURL.TextChanged += new System.EventHandler(this.txtURL_TextChanged);
             // 
             // btnDownload
