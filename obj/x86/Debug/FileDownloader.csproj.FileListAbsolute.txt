@@ -1,0 +1,8 @@
+C:\Users\trunke\Desktop\Downloader\bin\Debug\FileDownloader.exe.config
+C:\Users\trunke\Desktop\Downloader\bin\Debug\FileDownloader.exe
+C:\Users\trunke\Desktop\Downloader\bin\Debug\FileDownloader.pdb
+C:\Users\trunke\Desktop\Downloader\obj\x86\Debug\FileDownloader.csprojResolveAssemblyReference.cache
+C:\Users\trunke\Desktop\Downloader\obj\x86\Debug\FileDownloader.Form1.resources
+C:\Users\trunke\Desktop\Downloader\obj\x86\Debug\FileDownloader.csproj.GenerateResource.Cache
+C:\Users\trunke\Desktop\Downloader\obj\x86\Debug\FileDownloader.exe
+C:\Users\trunke\Desktop\Downloader\obj\x86\Debug\FileDownloader.pdb
