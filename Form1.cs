@@ -400,8 +400,10 @@ namespace FileDownloader
                 else
                 {
                     _progress.AddSegment(bytesRangeOfChunk, true);
-
-                    this.statusStrip1.Items["byteStatus"].Text = _progress.GetSumSegments().ToString() + " of " + _progress.TotalFileLength.ToString() + " thats " + (_progress.GetSumSegments() / _progress.TotalFileLength * 100) + "%";
+                    long segments = _progress.GetSumSegments();
+                    long totalFileLength  = _progress.TotalFileLength;
+                    int percentage = Convert.ToInt16(Convert.ToDecimal(segments) / Convert.ToDecimal(totalFileLength) * Convert.ToDecimal(100)) ;
+                    this.statusStrip1.Items["byteStatus"].Text = segments.ToString() + " of " + totalFileLength.ToString() + " thats " + percentage + "%";
                     this.statusStrip1.Refresh();
                 }
             }
